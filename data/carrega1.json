@@ -1,12 +1,12 @@
 [
 	{
-		"titulo" : "Noticia 4",
-		"descripcio" : "descripcio noticia 4",
+		"titulo" : "Noticia 6",
+		"descripcio" : "descripcio noticia 6",
 		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
-		"hrefSection" : "#section4",
-		"idSection" : "section4"
+		"hrefSection" : "#section6",
+		"idSection" : "section6"
 	},
 
 	{
@@ -20,12 +20,12 @@
 	},
 
 	{
-		"titulo" : "Noticia 6",
-		"descripcio" : "Descripcio noticia 6",
+		"titulo" : "Noticia 4",
+		"descripcio" : "Descripcio noticia 4",
 		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
-		"hrefSection" : "#section6",
-		"idSection" : "section6"
+		"hrefSection" : "#section4",
+		"idSection" : "section4"
 	}
 ]
