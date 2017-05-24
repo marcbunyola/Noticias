@@ -1,0 +1,34 @@
+[
+	{
+		"titulo" : "Noticia 7",
+		"descripcio" : "descripcio noticia 7",
+		"imatge" : "src=../img/fontGran.jpg",
+		"peu" : "14/11/2016, 12:00-16:00",
+		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"hrefSection" : "#section9",
+		"idSection" : "section7",
+		"numNoticia" : "Notícia 9"
+	},
+
+	{
+		"titulo" : "Noticia 8",
+		"descripcio" : "descripcio noticia 8",
+		"imatge" : "src=../img/fontGran.jpg",
+		"peu" : "14/11/2016, 12:00-16:00",
+		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"hrefSection" : "#section8",
+		"idSection" : "section8",
+		"numNoticia" : "Notícia 8"
+	},
+
+	{
+		"titulo" : "Noticia 9",
+		"descripcio" : "Descripcio noticia 9",
+		"imatge" : "src=../img/fontGran.jpg",
+		"peu" : "14/11/2016, 12:00-16:00",
+		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"hrefSection" : "#section7",
+		"idSection" : "section9",
+		"numNoticia" : "Notícia 7"
+	}
+]
