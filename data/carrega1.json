@@ -6,7 +6,8 @@
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section6",
-		"idSection" : "section4"
+		"idSection" : "section4",
+		"numNoticia" : "Notícia 6"
 	},
 
 	{
@@ -16,7 +17,8 @@
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section5",
-		"idSection" : "section5"
+		"idSection" : "section5",
+		"numNoticia" : "Notícia 5"
 	},
 
 	{
@@ -26,6 +28,7 @@
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section4",
-		"idSection" : "section6"
+		"idSection" : "section6",
+		"numNoticia" : "Notícia 4"
 	}
 ]
