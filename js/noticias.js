@@ -1,22 +1,50 @@
-$(function(){
-    //cargar comunidades
-    $.getJSON( "data/comunidades.json", function( jsonObject ) {
-        ponerComunidades( jsonObject );
-    });
+var i=0;
 
-    //onclick en verinfo
-    $("#verinfo").click(function() {
-        var v=$("#comunidades").val();
-        if (v!=0) window.location = "/comunidad/"+$("#comunidades").val();
-        else alert('Selecciona una comunidad');
+$(document).ready(function () { 
+    $("#carregar").click(function() {
+        cargar();
     });
 });
 
-function ponerComunidades(json){
-     $.each( json, function( i, comunidad ) {
-         //dos formas de hacer lo mismo, la segunda es más adecuada.
-         //$("#comunidades").append( "<option value='" + comunidad.slug + "'>" + comunidad.comunidad + "</option>" );
-         $('#comunidades').append($('<option>', { value: comunidad.slug, text : comunidad.comunidad }));
-         //"slug" es la parte de la url, por si hay que visitar la página de la comunidad (no va con vuestro proyecto, es un ejemplo)
-     }); 
+function cargar(){
+    $.getJSON( "https://rawgit.com/marcbunyola/Noticias/master/data/carrega1.json", function( jsonObject ) {
+        crear( jsonObject );
+    });
+}
+
+function crear(jsonObject){
+    if (i==0) {
+        var principal2=$('<div>',{id:'principal2',class:'container-fluid'});
+        $.each(jsonObject, function(i, noticiajson){
+
+            //variables de les parts de la seccio
+            var section=$('<div>',{class:'container-fluid',id:noticiajson.idSection});
+            var titulo=$('<h1>');
+            var noticia=$('<div>',{id:'noticia',class:'row'});
+            var descripcio=$('<div>',{class:'col-sm-6',id:'descripcio'});
+            var img=$('<div>',{class:'col-sm-6',id:'img'});
+            //var imatge=$(<'<img>',{src:'../img/fontGran.jpg'});
+            var boto=$('<button>',{type:'button',class:'btn btn-primary',id:'boto'});
+            var publi=$('<div>',{id:'publi'});
+            var navbar=$('<li>',{id:'li'});
+            var a=$('<a>',{href:noticiajson.hrefSection});
+
+            //organitzacio de la seccio
+            titulo.append(noticiajson.titulo);
+            titulo.appendTo(descripcio);
+            descripcio.append(noticiajson.descripcio);
+            descripcio.appendTo(noticia);
+            //$(imatge).appendTo(img);
+            img.appendTo(noticia);
+            boto.appendTo(noticia);
+            noticia.appendTo(section);
+            publi.appendTo(section);
+            section.appendTo(principal2);
+            a.append(noticiajson.numNoticia);
+            a.appendTo(navbar);
+            $("#li").after(navbar);
+        });
+        $("#principal").after(principal2);
+        i=1;
+    };
 }
