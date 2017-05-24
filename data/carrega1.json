@@ -7,7 +7,7 @@
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section4",
 		"idSection" : "section4",
-		"li" : "li3"
+		"li" : "#li3"
 	},
 
 	{
@@ -18,7 +18,7 @@
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section5",
 		"idSection" : "section5",
-		"li" : "li4"
+		"li" : "#li4"
 	},
 
 	{
@@ -29,6 +29,6 @@
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section6",
 		"idSection" : "section6",
-		"li" : "li5"
+		"li" : "#li5"
 	}
 ]
