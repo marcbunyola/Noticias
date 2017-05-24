@@ -1,28 +1,31 @@
 [
 	{
-		"titulo" : "Maria Coll Garcies",
-		"descripcio" : "Bicicleta B2919",
+		"titulo" : "Noticia 4",
+		"descripcio" : "descripcio noticia 4",
 		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
-		"data" : "asx",
-		"autor" : "aaaaaaaaaa"
+		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"hrefSection" : "#section4",
+		"idSection" : "section4"
 	},
 
 	{
-		"titulo" : "Maria Coll Garcies",
-		"descripcio" : "Bicicleta B2919",
-		"imatge" : "carrer Major número 5 de Consell",
+		"titulo" : "Noticia 5",
+		"descripcio" : "descripcio noticia 5",
+		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
-		"data" : "asx",
-		"autor" : "aaaaaaaaaa"
+		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"hrefSection" : "#section5",
+		"idSection" : "section5"
 	},
 
 	{
-		"titulo" : "Maria Coll Garcies",
-		"descripcio" : "Bicicleta B2919",
-		"imatge" : "carrer Major número 5 de Consell",
+		"titulo" : "Noticia 6",
+		"descripcio" : "Descripcio noticia 6",
+		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
-		"data" : "asx",
-		"autor" : "aaaaaaaaaa"
+		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"hrefSection" : "#section6",
+		"idSection" : "section6"
 	}
 ]
