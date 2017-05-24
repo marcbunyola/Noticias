@@ -5,9 +5,8 @@
 		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
-		"hrefSection" : "#section4",
-		"idSection" : "section4",
-		"li" : "#li3"
+		"hrefSection" : "#section6",
+		"idSection" : "section4"
 	},
 
 	{
@@ -17,8 +16,7 @@
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
 		"hrefSection" : "#section5",
-		"idSection" : "section5",
-		"li" : "#li4"
+		"idSection" : "section5"
 	},
 
 	{
@@ -27,8 +25,7 @@
 		"imatge" : "src=../img/fontGran.jpg",
 		"peu" : "14/11/2016, 12:00-16:00",
 		"autor" : "aaaaaaaaaa, 7/7/1999",
-		"hrefSection" : "#section6",
-		"idSection" : "section6",
-		"li" : "#li5"
+		"hrefSection" : "#section4",
+		"idSection" : "section6"
 	}
 ]
