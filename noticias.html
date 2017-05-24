@@ -1,128 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Exemple de bootstrap</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Descripció curta important. Descripció curta important. Descripció curta important."/>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bunyola sports</title>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="css/noticias.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/noticias.js"></script>
+  <script src="js/news.js"></script>
+  <link rel="stylesheet" href="css/news_d.css">
 </head>
-  <body>
-    <div id="adalt">
-      <div id="titologo">
-        <div id="logo">
-          <img src="img/logo.png">
-        </div>
-        <div id="titol">
-          <img src="img/titulo.png">
-        </div>
+<body>
+  <div id="adalt" class="jumbotron">
+   <h1><img src="img/logo.png"> BUNYOLA SPORTS </h1> 
+ </div>
+ <nav class="navbar navbar-inverse" style="margin:0px;" data-spy="affix" data-offset-top="226">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="padding:0px;"><img src="img/minilogo.png"></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Notícia 1</a></li>
+          <li><a href="#section2">Notícia 2</a></li>
+          <li id="li"><a href="#section3">Notícia 3</a></li>
+        </ul>
       </div>
     </div>
-    <div id="dreta">
+  </div>
+</nav> 
+
+<div id="principal" class="container-fluid">
+  <div id="section1" class="container-fluid">
+   <div id="noticia" class:"row">
+    <div class="col-sm-6" id="descripcio">
+      <h1>Himno para el Bunyola</h1>
+      G. Rodas. Palma No es habitual encontrar a Pau Debon jugando fuera de la que es su casa, Antònia Font. Pero a Bunyola, donde reside desde hace años, no le podía decir que no. El cantante ha puesto su voz al servicio del club de la localidad, el Juventut Bunyola, para entonar el himno joven de un equipo de fútbol que aspira a subir de categoría. El tema, ya grabado y colgado en internet, con cerca de un millar de visitas en YouTube, aspira a multiplicarse en mil copias que serán distribuidas en en formato cedé, aunque para ello necesita...
     </div>
-    <div id="cos">
-      <div id="noticies">
-
-        <div id="noticia1">
-          <div id="texte1">
-            <div id="titolnoticia1">
-              <h3>
-                Himno para el Bunyola
-              </h3>
-            </div>
-            <div id="descripcio1">
-              <p>
-                G. Rodas. Palma No es habitual encontrar a Pau Debon jugando fuera de la que es su casa, Antònia Font. Pero a Bunyola, donde reside desde hace años, no le podía decir que no. El cantante ha puesto su voz al servicio del club de la localidad, el Juventut Bunyola, para entonar el himno joven de un equipo de fútbol que aspira a subir de categoría. El tema, ya grabado y colgado en internet, con cerca de un millar de visitas en YouTube, aspira a multiplicarse en mil copias que serán distribuidas en...
-              </p>
-              <button>
-                Llegir noticia completa >>
-              </button>
-            </div>
-          </div>
-          <div id="foto1">
-            <div id="imatge1">
-              <img src="img/font.jpg">
-            </div>
-            <div id="peufoto1">
-              <p>
-                hola que tal fideputa gitano cabron
-              </p>
-            </div>
-          </div> 
-        </div>
-
-
-        <div id="noticia2">
-          <div id="texte2">
-            <div id="titolnoticia2">
-              <h3>
-                SA PUTA DE TAMARE CABDON
-              </h3>
-            </div>
-            <div id="descripcio2">
-              <p>
-                Hola hijo de puta i sa puta de tamare que cabdon aafcdv+wdv
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 4
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 
-              </p>
-              <button>
-                Llegir noticia completa >>
-              </button>
-            </div>
-          </div>
-          <div id="foto2">
-            <div id="imatge2">
-              <img src="img/logo.png">
-            </div>
-            <div id="peufoto2">
-              <p>
-                hola que tal fideputa gitano cabron
-              </p>
-            </div>
-          </div> 
-        </div>
-
-
-        <div id="noticia3">
-          <div id="texte3">
-            <div id="titolnoticia3">
-              <h3>
-                SA PUTA DE TAMARE CABDON
-              </h3>
-            </div>
-            <div id="descripcio3">
-              <p>
-                Hola hijo de puta i sa puta de tamare que cabdon aafcdv+wdv
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 4
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 
-                sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 sjk jkadc  jhsd uief iqwf ui UI Gu gpu Gw grwgt   weg   wg  2qg 2 
-              </p>
-              <button>
-                Llegir noticia completa >>
-              </button>
-            </div>
-          </div>
-          <div id="foto3">
-            <div id="imatge3">
-              <img src="img/logo.png">
-            </div>
-            <div id="peufoto3">
-              <p>
-                hola que tal fideputa gitano cabron
-              </p>
-            </div>
-          </div> 
-        </div>
-
-      </div>
+    <div class="col-sm-6" id="img">
+      <img src="img/fontGran.jpg">
+      hola gola hola ei qe pas
     </div>
-  </body>
+    <button type="button" class="btn btn-primary" id="boto">Llegir notícia completa >></button>
+  </div>
+  <div id="publi">
+  </div>
+</div>
+<div id="section2" class="container-fluid">
+  <div id="noticia" class:"row">
+    <div class="col-sm-6" id="descripcio">
+      <h1>Himno para el Bunyola</h1>
+      G. Rodas. Palma No es habitual encontrar a Pau Debon jugando fuera de la que es su casa, Antònia Font. Pero a Bunyola, donde reside desde hace años, no le podía decir que no. El cantante ha puesto su voz al servicio del club de la localidad, el Juventut Bunyola, para entonar el himno joven de un equipo de fútbol que aspira a subir de categoría. El tema, ya grabado y colgado en internet, con cerca de un millar de visitas en YouTube, aspira a multiplicarse en mil copias que serán distribuidas en en formato cedé, aunque para ello necesita...
+    </div>
+    <div class="col-sm-6" id="img">
+      <img src="img/fontGran.jpg"> 
+      hola gola hola ei qe pas
+    </div>
+    <button type="button" class="btn btn-primary" id="boto">Llegir notícia completa >></button>
+  </div>
+  <div id="publi">
+  </div>
+</div>
+<div id="section3" class="container-fluid">
+  <div id="noticia" class:"row">
+    <div class="col-sm-6" id="descripcio">
+      <h1>Himno para el Bunyola</h1>
+      G. Rodas. Palma No es habitual encontrar a Pau Debon jugando fuera de la que es su casa, Antònia Font. Pero a Bunyola, donde reside desde hace años, no le podía decir que no. El cantante ha puesto su voz al servicio del club de la localidad, el Juventut Bunyola, para entonar el himno joven de un equipo de fútbol que aspira a subir de categoría. El tema, ya grabado y colgado en internet, con cerca de un millar de visitas en YouTube, aspira a multiplicarse en mil copias que serán distribuidas en en formato cedé, aunque para ello necesita...
+    </div>
+    <div class="col-sm-6" id="img">
+      <img src="img/fontGran.jpg"> 
+      hola gola hola ei qe pas
+    </div>
+    <button type="button" class="btn btn-primary" id="boto">Llegir notícia completa >></button>
+  </div>
+  <div id="publi">
+  </div>
+</div>
+</div>
+
+<div class="container-fluid" style="text-align: center">
+  <button type="button" class="btn btn-primary" id="carregar">Carregar més notícies</button>
+</div>
+
+<footer class="footer"> 
+  <div class="container"> 
+    <ul class="footer-links"> 
+      <li>Facebook</li> 
+      <li>About</li> 
+    </ul> 
+    <p>
+      Developed by Marc Reus
+    </p> 
+  </div> 
+</footer>
+</body>
 </html>
