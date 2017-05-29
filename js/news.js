@@ -3,22 +3,17 @@ var j=0;
 var ample = $(window).width();
 
 $(document).ready(function () { 
-    
+    if (ample<=768){
+        $("#barra").affix({offset: {top: 0} });
+    };
     $("#carregar").click(function() {
         cargar();
     });
-
     $(window).scroll(function(){
         if ($(window).scrollTop() >= $(document).height() - $(window).height() - 190){
         cargar();
         }                  
     });
-    if(ample<=768){
-        $("#noticia").css({
-            "right": "0px !important"
-        });
-    }
-    
 });
 
 function cargar(){
@@ -66,7 +61,8 @@ function crear(jsonObject){
         $( "#carregar" ).hide();
         var boto=$('<div>',{class:'container-fluid',style:'text-align:center'});
         var buton=$('<button>',{type:'button',class:'btn btn-default',id:'carregar2'});
-        buton.append("+");
+        var span=$('<span>',{class:'glyphicon glyphicon-plus-sign'});
+        span.appendTo(buton);
         buton.appendTo(boto);
         $("#principal2").after(boto);
 
