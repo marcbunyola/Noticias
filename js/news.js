@@ -34,7 +34,7 @@ function crear(jsonObject){
             var noticia=$('<div>',{id:'noticia',class:'row'});
             var descripcio=$('<div>',{class:'col-sm-6',id:'descripcio'});
             var img=$('<div>',{class:'col-sm-6',id:'img'});
-            var imatge=$('<img>',{src:'../img/fontGran.jpg'});
+            var imatge=$('<img>',{src:noticiajson.imatge});
             var boto=$('<button>',{type:'button',class:'btn btn-primary',id:'boto'});
             var publi=$('<div>',{id:'publi',class:'hidden-xs'});
             var navbar=$('<li>',{id:noticiajson.llista});
@@ -105,7 +105,7 @@ function crear2(jsonObject){
             var noticia=$('<div>',{id:'noticia',class:'row'});
             var descripcio=$('<div>',{class:'col-sm-6',id:'descripcio'});
             var img=$('<div>',{class:'col-sm-6',id:'img'});
-            var imatge=$('<img>',{src:'../img/fontGran.jpg'});
+            var imatge=$('<img>',{src:noticiajson.imatge});
             var boto=$('<button>',{type:'button',class:'btn btn-primary',id:'boto'});
             var publi=$('<div>',{id:'publi'});
             var navbar=$('<li>',{id:'li'});
@@ -136,3 +136,4 @@ function crear2(jsonObject){
         $( "#carregar2" ).hide();
     };
 }
+
