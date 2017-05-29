@@ -1,10 +1,8 @@
 [
 	{
-		"titulo" : "Noticia 4",
-		"descripcio" : "descripcio noticia 4",
-		"imatge" : "src=../img/fontGran.jpg",
-		"peu" : "14/11/2016, 12:00-16:00",
-		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"titulo" : "Alba Torrens cierra el IV Campus Viu Bàsquet",
+		"descripcio" : "La mallorquina Alba Torrens, tras disputar el Europeo de selecciones, participó ayer en la clausura de la IV edición del ´Campus Viu Bàsquet´ del técnico Miquel Ballester, que se ha desarrollado en las instalaciones del Polideportiu Municipa de Bunyola. Torrens, MVP de la final de la Euroliga y campeona de Liga y Copa, animó a los niños y niñas presentes en el cursillo de verano, al igual que a los propios monitores, que no...",
+		"imatge" : "img/basket.png",
 		"hrefSection" : "#section6",
 		"idSection" : "section4",
 		"numNoticia" : "Notícia 6",
@@ -12,11 +10,9 @@
 	},
 
 	{
-		"titulo" : "Noticia 5",
-		"descripcio" : "descripcio noticia 5",
-		"imatge" : "src=../img/fontGran.jpg",
-		"peu" : "14/11/2016, 12:00-16:00",
-		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"titulo" : "Inter Manacor 6 – 0 Bunyola CF",
+		"descripcio" : "Victoria sin paliativos de un Inter que ha sido muy superior a su rival durante los noventa minutos. El partido empezó con un inter, que recibía la visita de un rival el Bunyola ,el cual le endoso la derrota más dolorosa de la temporada, por lo que afrontaron el partido con mucho respeto a su rival, pero a su vez con ganas de salir victoriosos, el partido duro lo que tardo el Inter en  abrir el marcador, un gol...",
+		"imatge" : "img/cronica.png",
 		"hrefSection" : "#section5",
 		"idSection" : "section5",
 		"numNoticia" : "Notícia 5",
@@ -24,11 +20,9 @@
 	},
 
 	{
-		"titulo" : "Noticia 6",
-		"descripcio" : "Descripcio noticia 6",
-		"imatge" : "src=../img/fontGran.jpg",
-		"peu" : "14/11/2016, 12:00-16:00",
-		"autor" : "aaaaaaaaaa, 7/7/1999",
+		"titulo" : "Campo de fútbol 'Miquel Bestard'",
+		"descripcio" : "El presidente de la FFIB ha recibido el homenaje de su pueblo el día de San Mateo, patrón. El ayuntamiento también le ha concedido la medalla de Oro. El acto ha tenido lugar este mediodía, al final de la celebración del I Torneo de Fútbol Miquel Bestard, con participación de destacados equipos alevines y benjamines. (Los ganadores: el Mallorca Alevín y el Calvià Benjamín). Mucho público...",
+		"imatge" : "img/miquel.png",
 		"hrefSection" : "#section4",
 		"idSection" : "section6",
 		"numNoticia" : "Notícia 4",
