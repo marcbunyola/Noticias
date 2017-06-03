@@ -3,21 +3,14 @@
 	color: white;
 	text-align: center;
 	margin-bottom: 0px;	
+	height: 180px;
+	padding-top: 25px;
 }
 
 #adalt img{
 	padding-bottom: 10px;
 	height: 100px;
 	width: auto;
-}
-
-#dreta{
-	position: absolute;
-	background-color: red;
-	width: 300px;
-	height: 100%;
-	right: 0px;
-	top: 247px;
 }
 
 .affix {
@@ -37,11 +30,28 @@
     top: 50px;
 }
 
-#section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{position:relative; height:400px; margin-left: 50px;margin-bottom: 60px; margin-top: 60px;}
-#noticia{padding-top: 50px;position:absolute;height: 100%; right: 300px; left:0;border: 1px solid #CFCFCF; margin-right: 20px;
+#section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
+	position:relative; 
+	height:400px; 
+	margin-left: 50px;
+	margin-bottom: 60px; 
+	margin-top: 60px;
 }
+
+#noticia{padding-top: 50px;
+	position:absolute;
+	height: 100%; 
+	right: 300px; 
+	left:0;border: 1px solid #CFCFCF; 
+	margin-right: 20px;
+}
+
 #publi{
-	padding-top: 50px;position: absolute; height: 100%; right: 0; width: 300px;
+	padding-top: 50px;
+	position: absolute; 
+	height: 100%; 
+	right: 0; 
+	width: 300px;
 }
 
 #publi img{
@@ -53,18 +63,6 @@
 #principal{
 	padding-right: 0;
 }
-
-.footer{
-	padding:50px 0 50px;
-	margin-top:100px;
-	color:#99979c;
-	text-align:left;
-    background-color: #1C1C1C;
-    bottom:0px;
-}
-.footer-links{padding-left:0;margin-bottom:20px}
-.footer-links li+li{margin-left:15px}
-.footer-links li{display:inline-block}
 
 #descripcio{
 	font-size: 1.2vw;
@@ -89,23 +87,65 @@ h1{
 	font-size: 2vw;
 }
 
-#boto{
-	position: absolute;
-	bottom:0;
-	right: 0;
-	border-radius: 0;
-	font-size: 1.2vw;
+ #botones-para-compartir {
+ 	text-align:left;
+ }
+
+.footer{
+	padding:20px 0 20px;
+	margin-top:100px;
+	color:#99979c;
+	text-align:left;
+    background-color: #1C1C1C;
+    bottom:0px;
 }
+
+.footer-links{
+	padding-left:0;
+	margin-bottom:20px
+}
+
+.footer-links li+li{
+	margin-left:15px
+}
+
+.footer-links li{
+	display:inline-block
+}
+
+
+.facebooki:hover, .twitteri:hover, .googlei:hover{
+	border-radius:25px 25px 25px 25px;
+	transition:all .3s ease-out;
+	box-shadow: 0px 0px 5px #000;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+.likedini, .facebooki, .twitteri, .googlei, .pinteresti {
+	transition:all .3s ease-out;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+
 
 #publiM{
 	display: none;
 }
 
-
-
-
-
 @media (max-width: 767px) { 
+
+	.jumbotron{
+		padding-top: 50px;
+	}
+
+	.jumbotron img{
+		display: none;
+	}
+
 	#publiM{
 		position: fixed;
 		height: 90px;
@@ -135,10 +175,6 @@ h1{
 		height: 700px;
 	}
 
-	.footer{
-    	margin-bottom: 90px;
-	}
-
 	#img{
 		top:40px;
 		padding-top: 0px;
@@ -153,15 +189,11 @@ h1{
 		font-size: 30px;
 	}
 
-	#boto{
-		font-size: 14px;
-	}
-
 	#principal{
 		padding: 2px;
 	}
 
-
-
+	.footer{
+    	margin-bottom: 90px;
+	}
 }
-	
