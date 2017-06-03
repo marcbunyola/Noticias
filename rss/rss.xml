@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <title>Bunyola Sports</title>
+    <link></link>
+    <description>
+        Página de noticias de deportes en bunyola
+    </description>
+    <link>
+        https://rawgit.com/marcbunyola/Noticias/master/news.html
+    </link>
+
+    <item>
+        <title>Himno para el Bunyola</title>
+        <description>
+            El cantante Antònia Font ha puesto su voz al servicio del club de la localidad, el Juventut Bunyola, para entonar el himno joven de un equipo de fútbol que aspira a subir de categoría.
+        </description>
+        <pubDate>13 de Mayo 2013</pubDate>
+        <link>
+            https://rawgit.com/marcbunyola/Noticias/master/new1.html
+        </link>
+    </item>
+
+    <item>
+        <title>Colom, un mallorquín coronando el Mortirolo</title>
+        <description>
+            La carrera había visto como un grupo de aventureros, entre los que se encontraba el compañero de Contador, Toni Colom (Buñola, 1978), ascendía el Gavia y llegaba con suficiente ventaja al Mortirolo.
+        </description>
+        <pubDate>19 de Noviembre 2016</pubDate>
+        <link>
+            https://rawgit.com/marcbunyola/Noticias/master/new2.html
+        </link>
+    </item>
+
+</channel>
+</rss>
