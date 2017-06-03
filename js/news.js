@@ -87,7 +87,7 @@ function crear2(jsonObject){
         var principal3=$('<div>',{id:'principal3',class:'container-fluid'});
         var darreraLlista=$('<li>',{class:'dropdown'});
         var aa=$('<a>',{class:'dropdown-toggle',"data-toggle":'dropdown',href:'#'});
-        aa.append("Més notícies");
+        aa.append("Más noticias");
         var span=$('<span>',{class:'caret'});
         var llistaCon=$('<ul>',{class:'dropdown-menu'});
 
