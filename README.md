@@ -3,7 +3,6 @@
  ### URL rawgit: https://rawgit.com/marcbunyola/Noticias/master/news.html 
 
  ### Maquetación:
- <br><br>
   - Diseño página principal versión final desktop:
   <br><br>
    ![la imagen no carga](img/1.jpeg)
