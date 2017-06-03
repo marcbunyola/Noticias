@@ -1,0 +1,28 @@
+[
+	{
+		"titulo" : "Sorteo IV Torneo Miguel Bestard",
+		"descripcio" : "Durante los días 22,23 y 24 de Septiembre el campo municipal Miguel Bestard de Bunyola será el escenario por cuarto año consecutivo del torneo Miguel Bestard de las categorías benjamín y alevín. El pasado martes se realizó el sorteo del calendario de partidos de ambas categoría en la sede federativa de Son Malferit con la presencia de Miguel Bestard presidente de la FFIB y de Manolo  Bosch secretario general. Por primera vez participará...",
+		"imatge" : "img/not7.png",
+		"hrefSection" : "#section7",
+		"idSection" : "section7",
+		"numNoticia" : "Notícia 7"
+	},
+
+	{
+		"titulo" : "Nit del Futbol en Son Termes",
+		"descripcio" : "Organizada por la Federació de Futbol de les Illes Balears (FFIB), que preside Miquel Bestard, se celebró en Son Termens la Gran Gala del Futbol Balear que reunió a más de un millar de asistentes. El acto congregó a representantes de los clubes de fútbol, entrenadores y jugadores con motivo de la entrega de las Botas de Oro, trofeos a los clubes de fútbol base y homenaje a leyendas del fútbol tanto locales como nacionales. El fútbol balear homenajeó...",
+		"imatge" : "img/not8.png",
+		"hrefSection" : "#section8",
+		"idSection" : "section8",
+		"numNoticia" : "Notícia 8"
+	},
+
+	{
+		"titulo" : "Campus de Fútbol de Semana Santa en Bunyola",
+		"descripcio" : "El Campus de Tecnificación coordinado por Toni Sanchez, programado para los dias 2,3,4,5 abril, se realizará en las instalaciones del S.E.J. Bunyola. Se ha intentado adaptar a las necesidades económicas de la sociedad actual, planteando un precio atractivo al alcance de las familias. Está dirigido para los niños nacidos entre 1999 y 2006 (ambos inclusive). Los objetivos principales serán: 1. Desarrollar elementos técnicos básicos, explicándoles y haciéndoles...",
+		"imatge" : "img/not9.png",
+		"hrefSection" : "#section9",
+		"idSection" : "section9",
+		"numNoticia" : "Notícia 9"
+	}
+]
