@@ -5,7 +5,7 @@
 		"imatge" : "img/basket.png",
 		"hrefSection" : "#section6",
 		"idSection" : "section4",
-		"numNoticia" : "Notícia 6",
+		"numNoticia" : "Noticia 6",
 		"llista" : "llista6"
 	},
 
@@ -15,7 +15,7 @@
 		"imatge" : "img/cronica.png",
 		"hrefSection" : "#section5",
 		"idSection" : "section5",
-		"numNoticia" : "Notícia 5",
+		"numNoticia" : "Noticia 5",
 		"llista" : "llista5"
 	},
 
@@ -25,7 +25,7 @@
 		"imatge" : "img/miquel.png",
 		"hrefSection" : "#section4",
 		"idSection" : "section6",
-		"numNoticia" : "Notícia 4",
+		"numNoticia" : "Noticia 4",
 		"llista" : "llista4"
 	}
 ]
