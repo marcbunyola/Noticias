@@ -19,8 +19,9 @@
   <br><br>
   ![la imagen no carga](img/4.jpeg)
   <br><br>
-  - Diseño footer para todas las versiones finales:
+  - Diseño footer para todas las versiones finales :
   <br><br>
   ![la imagen no carga](img/5.jpeg)
-  
+  <br>
+  Los botones son para compartir en facebook, google o twitter la página en la que se encuentra, ya sea news, new1 o new2
 
