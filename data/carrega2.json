@@ -5,7 +5,7 @@
 		"imatge" : "img/not7.png",
 		"hrefSection" : "#section7",
 		"idSection" : "section7",
-		"numNoticia" : "Notícia 7"
+		"numNoticia" : "Noticia 7"
 	},
 
 	{
@@ -14,7 +14,7 @@
 		"imatge" : "img/not8.png",
 		"hrefSection" : "#section8",
 		"idSection" : "section8",
-		"numNoticia" : "Notícia 8"
+		"numNoticia" : "Noticia 8"
 	},
 
 	{
@@ -23,6 +23,6 @@
 		"imatge" : "img/not9.png",
 		"hrefSection" : "#section9",
 		"idSection" : "section9",
-		"numNoticia" : "Notícia 9"
+		"numNoticia" : "Noticia 9"
 	}
 ]
