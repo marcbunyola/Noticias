@@ -1,11 +1,7 @@
 var i=0;
 var j=0;
-var ample = $(window).width();
 
 $(document).ready(function () { 
-    if (ample<=768){
-        $("#barra").affix({offset: {top: 0} });
-    };
     $("#carregar").click(function() {
         cargar();
     });
@@ -35,7 +31,6 @@ function crear(jsonObject){
             var descripcio=$('<div>',{class:'col-sm-6',id:'descripcio'});
             var img=$('<div>',{class:'col-sm-6',id:'img'});
             var imatge=$('<img>',{src:noticiajson.imatge});
-            var boto=$('<button>',{type:'button',class:'btn btn-primary',id:'boto'});
             var publi=$('<div>',{id:'publi',class:'hidden-xs'});
             var navbar=$('<li>',{id:noticiajson.llista});
             var a=$('<a>',{href:noticiajson.hrefSection});
@@ -47,8 +42,6 @@ function crear(jsonObject){
             descripcio.appendTo(noticia);
             $(imatge).appendTo(img);
             img.appendTo(noticia);
-            boto.append("LLegir notícia completa >>");
-            boto.appendTo(noticia);
             noticia.appendTo(section);
             publi.appendTo(section);
             section.appendTo(principal2);
@@ -106,7 +99,6 @@ function crear2(jsonObject){
             var descripcio=$('<div>',{class:'col-sm-6',id:'descripcio'});
             var img=$('<div>',{class:'col-sm-6',id:'img'});
             var imatge=$('<img>',{src:noticiajson.imatge});
-            var boto=$('<button>',{type:'button',class:'btn btn-primary',id:'boto'});
             var publi=$('<div>',{id:'publi'});
             var navbar=$('<li>',{id:'li'});
             var a=$('<a>',{href:noticiajson.hrefSection});
@@ -118,8 +110,6 @@ function crear2(jsonObject){
             descripcio.appendTo(noticia);
             $(imatge).appendTo(img);
             img.appendTo(noticia);
-            boto.append("LLegir notícia completa >>");
-            boto.appendTo(noticia);
             noticia.appendTo(section);
             publi.appendTo(section);
             section.appendTo(principal3);
@@ -136,4 +126,3 @@ function crear2(jsonObject){
         $( "#carregar2" ).hide();
     };
 }
-
